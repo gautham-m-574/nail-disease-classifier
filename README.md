@@ -23,6 +23,10 @@ Simple prototype that classifies nail images (6 classes) using a pretrained ResN
    ```
    Open http://127.0.0.1:5000
 
+## Dataset 
+
+Nail Disease Detection  Dataset from Kaggle (Link: https://www.kaggle.com/datasets/nikhilgurav21/nail-disease-detection-dataset )
+
 ## Notes & security
 - Do NOT run Flask with `debug=True` in production.
 - Validate uploaded files and use `werkzeug.utils.secure_filename`; add `app.config['MAX_CONTENT_LENGTH']` to limit upload size.
